@@ -1,0 +1,164 @@
+.zwtp{
+	margin: 0px auto;
+	float: left;
+	left: 5px;
+}
+.zwtp1{
+	margin: 0px auto;
+	float: left;
+	left: 5px;
+}
+.zwtp img{
+	width: 300px;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.zwtp1 img{
+	width: 320px;
+	margin-left: 5px;
+	margin-top: -5px;
+	padding-top: 10px;
+	display: block;
+}
+.guangao{
+	color: red;
+}
+.clear{
+	clear: both;
+}
+.banquan1{
+	width: 100%;
+	height: 70px;
+	background: rgba(255,255,255,0.5);
+	opacity: 0.5;
+	
+}
+.banquan1 p{
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 8px;
+/*	color: gray;*/
+	color:rgba(211,211,211,0.5);
+}
+body,.hh{
+	/*width: 640px;*/
+	margin: 0 auto;
+}
+.user_info1 > .lzimg{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	display: inline-block;
+	padding-top: -5px;
+}
+.user-img{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	margin-top: 0px;
+	position: relative;
+}
+.user-img > img{
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	display: inline-block;
+	margin-left: 5px;
+}
+.user-img > span{
+	color: #ccc;
+	line-height: 30px;
+	font-size: 14px;
+}
+.user-img > .hf{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+.hfnr{
+	width: 98%;
+	padding: 10px 15px 5px 5px; !important;
+	font-size: 15px;
+	line-height: 22px;
+}
+.b-list li{
+	border-bottom: 1px solid #ccc;
+}
+.topup{
+   width: 100%;
+}
+.phoneCall{
+/*	font-size: 0.31rem;*/
+	font-weight: normal;
+	display: inline-block;
+}
+
+
+#bq-footer{
+	margin-top: 10px;
+	background: #404040;
+	height: 70px;
+	text-align: center;
+	display: none;
+}
+#bq-footer p{
+	font-size: 16px;
+	height: 30px;
+	line-height: 30px;
+	color: white;
+	font-family: "微软雅黑";
+}
+
+#bq-footer2{
+	margin-top: 10px;
+	width: 100%;
+	height: 30px;
+	background: rgba(255,255,255,0.5);
+	opacity: 0.5;
+	display: none;
+	
+}
+#bq-footer2 p{
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 8px;
+/*	color: gray;*/
+	color:rgba(211,211,211,0.5);
+}
+
+#bq-footer a{
+	text-decoration: none;
+	font-size: 16px;
+	color: white;
+	font-family: "微软雅黑";
+}
+.bqlj{
+	width: 660px;
+	height: 100%;
+	/*background: blue;*/
+	margin: 0 auto;
+}
+.bqlj p{
+	font-size: 18px;
+	line-height: 25px;
+	text-indent: 2em;
+	font-family: "微软雅黑";
+}
+.full-content > p{
+	line-height: 24px;
+}
+.hfnr > .bq{
+	margin-top: -10px;
+}
+.text-line {
+    height: 10px;
+    width: 109%;
+    line-height: 12px;
+    font-size: 0px;
+    margin-left: -15px;
+    margin-top:-3px;
+    background: rgb(240, 240, 240) none repeat scroll 0% 0%;
+}
+-webkit-overflow-scrolling : touch;  
