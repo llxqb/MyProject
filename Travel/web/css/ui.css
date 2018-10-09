@@ -18,9 +18,9 @@
 .public_global_tips .public_global_tips_ft>a>span>i.icon {float: left;margin: 12px 2px 0 0;}
 
 .icon {display: inline-block;background-size: contain;background-repeat: no-repeat;background-position: center center;}
-.icon-rz { background-image:url(../img/yrz.png);}
-.icon-wechat {background-image:url(../img/wechat.png);}
-.icon-best {background-image:url(../img/icon-best.png) !important;}
+.icon-rz { background-image:url(../img/certification.png);}
+.icon-wechat {background-image:url(../img/wechat.jpg);}
+.icon-best {background-image:url(../img/wechat.jpg) !important;}
 
 @media (max-width: 760px){
     .public_global_tips {width: auto;margin: 20vh 10px 0;}
