@@ -7,8 +7,9 @@ function doLike(obj) {
     obj.children[1].innerHTML = old + 1
 }
 
-function copyAndOpenWx(obj) {
-    var wx = obj.dataset.wx;
+function copyAndOpenWx() {
+    // var wx = obj.dataset.wx;
+    var wx = document.getElementById("wx_num").innerHTML;
     console.log(wx)
     var Url2 = wx;
     var oInput = document.createElement('input');
@@ -36,6 +37,10 @@ function showWxBox() {
     var qr =  document.getElementById("wx_qrcode").src;
     var avatar = "img/wechat.jpg";
     var data = {name: name, wx: wx_num, tel: tel, qr: qr, avatar: avatar};
+
+    var val = document.getElementById('wx_num');
+    window.getSelection().selectAllChildren(val);
+    document.execCommand("Copy"); // 执行浏览器复制命令
 
     var tipsBox = '<div class="global_warp cssAlert"><div class="public_global_tips"><h3>微信号复制成功!</h3>' +
         '<div class="public_global_tips_body"><div class="line">' +
@@ -68,7 +73,7 @@ function showModal() {
     var modalHtml = '<div class="modal_warp"><div class="showModal"><div class="modal-title">' + data.name + '<b class="online">( 在线 )</b>,您可以:</div>';
     modalHtml += '<div class="modal-item"><a href="javascript:;" onclick=showWxBox()>复制微信( ' + data.wx + ' )</a></div>';
     modalHtml += '<div class="modal-item"><a href="tel:' + data.tel + '">拨打电话( ' + data.tel + ' )</a></div>';
-    modalHtml += '<div class="modal-item"><a   onclick="copyAndOpenWx(this)">打开微信( 如无响应请手动打开 )</a></div>';
+    modalHtml += '<div class="modal-item"><a   onclick="copyAndOpenWx()">打开微信( 如无响应请手动打开 )</a></div>';
     modalHtml += '<div class="modal-item moda-item-cancel"><a href="javascript:;" onclick="hidModal()">取消</a></div>';
     modalHtml += '</div></div>';
     $('body').append(modalHtml);
