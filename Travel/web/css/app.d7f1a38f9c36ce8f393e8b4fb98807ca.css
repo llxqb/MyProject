@@ -12567,8 +12567,9 @@ a[data-v-13c14685] {
 
 .main .answerCon .list .text[data-v-13c14685] {
     margin-top: 10px;
-    letter-spacing:1px;
-    line-height:22px;
+    letter-spacing: 1px;
+    word-spacing: 8px;
+    line-height: 30px;
 }
 
 .main .answerCon .list .text p[data-v-13c14685] {

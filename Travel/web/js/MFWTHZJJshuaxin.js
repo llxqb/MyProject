@@ -2,7 +2,7 @@
 var wenxinNum=["18974412662","18974465662","17680515800","18797501900"];
 var phone=["18974412662","18974465662","17680515800","18797501900"];
 var phoneCallArr=["tel:18974412662","tel:18974465662","tel:17680515800","tel:18797501900"];
-var imgarr=["img/xiaoli.jpg","img/xiaozhu.jpg","img/xiaozhang.jpg","img/xiaoxue.jpg"];
+var imgarr=["img/xiaoli2.png","img/xiaozhu2.png","img/xiaozhang2.png","img/xiaoxue2.png"];
 var date = new Date();  //创建对象 
 var ranNum =  date.getSeconds()%namearr.length;
 //var countNum = 0;
